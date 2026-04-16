@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Archivo", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body > div{
+background-color: rgb(235,235,235);
+}
+body>a{
+    text-decoration: none;
+    background-color: rgb(247, 247, 247);
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+h4{
+    margin-bottom: 22.5px;
+        text-align: center;
+    color: gray;
+}
+h5{
+    text-align: center;
+    color: gray;
+    margin-top: -9px;
+}
+nav > a{
+color: rgb(5, 137, 77);
+text-decoration: none;
+font-weight: 600;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: auto;
+}
+nav ul li{
+    float: right;
+}
+nav ul li a{
+    padding: 22px 10px;
+    text-decoration:none;
+    color: grey;
+    display: block;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color:rgb(5, 137, 77);
+}

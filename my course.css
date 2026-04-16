@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Archivo", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.bodyyy{
+    background-color: rgb(235, 235, 235);
+}
+body>a{
+    text-decoration: none;
+}
+nav > a{
+color: rgb(5, 137, 77);
+text-decoration: none;
+font-weight: 600;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: auto;
+}
+nav ul li{
+    float: right;
+}
+nav ul li a{
+    padding: 22px 10px;
+    text-decoration:none;
+    color: gray;
+    display: block;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color:rgb(5, 137, 77);
+}
+.h>h2{
+    margin-top: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.table-container{
+    width:60%;
+    margin: 15px auto 40px auto ;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color:white;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid ;
+}
+th{
+    text-align: left;
+    padding: 12px;
+    background-color: rgb(255, 254, 254);
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+td{
+    padding: 12px;
+    border: 1px solid black;
+}
+h5{
+    margin: 25px;
+    text-align: center;
+    color: gray;
+}
+.total{
+   margin: 30px; 
+}

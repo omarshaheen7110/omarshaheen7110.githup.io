@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Archivo", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+body>a{
+    text-decoration: none;
+}
+nav > a{
+    color: rgb(5, 137, 77);
+    text-decoration: none;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: auto;
+}
+nav ul li{
+    float: right;
+}
+nav ul li a{
+    padding: 22px 10px;
+    text-decoration:none;
+    color: gray;
+    display: block;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color:rgb(5, 137, 77);
+}
+.bodyyy{
+    background-color: rgb(235, 235, 235);
+}
+.h>h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+label,input{
+    margin-left: 10%;
+}
+.container{
+    text-align: left;
+    margin: -10px auto 40px auto ;
+    width: 50%;
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.q{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.b{
+    width: 80% ;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    align-items: center;
+}
+.b:hover{
+background-color: rgb(5, 137, 77);
+border: 2px solid;
+color: black;
+}
+h5{
+    margin-top: 25px;
+    text-align: center;
+    color: gray;}
